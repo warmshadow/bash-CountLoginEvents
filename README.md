@@ -1,5 +1,5 @@
 # bash-countLoginEvents
-Checking the number of domain logins from groups of computers in a windows network by matching successful Windows Security ID 4768 events.
+Checking the number of domain logins from groups of computers in a windows network by matching successful Windows Security Log ID 4768 events.
 
 ## Info
 This script was made to check how many times users have logged in from specific groups of computers (e.g. classrooms), calculating separately for each group.\
