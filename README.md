@@ -1,8 +1,8 @@
 # bash-countLoginEvents
-Bash script for daily checking the number of domain logins from different specified groups of computers in a network by matching successful Windows Security ID 4768 events in domain controller logs with given IP addresses.
+Checking the number of domain logins from groups of computers in a windows network by matching successful Windows Security ID 4768 events.
 
 ## Info
-This script was made to check how many times users logged in from specific groups of computers, calculating separately for each group.\
+This script was made to check how many times users have logged in from specific groups of computers (e.g. classrooms), calculating separately for each group.\
 Made to run as a daily cron job for counting and saving the number of yesterday's login events by checking previous day domain controller logs. Results are saved to files representing each IP pool's results.\
 When full month ends it generates a report with total numbers which is copied to a shared directory and sent via email (using *mutt*).
 
