@@ -16,6 +16,8 @@ Change variables inside init() function to your file paths and email information
 
 Change or remove log file decompression line.
 
+Change to count matches of different patterns.
+
 Or use only part of the code you need!
 
 ## LICENSE
