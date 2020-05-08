@@ -18,7 +18,7 @@ Change or remove log file decompression line.
 
 Change to count matches of different patterns.
 
-Or use only part of the code you need!
+Or use only part of the code you need.
 
 ## LICENSE
 MIT
